@@ -80,3 +80,9 @@ test('clicking button decrements counter display', () => {
   const counterDisplay = findByTestAttr(wrapper, 'counter-display');
   expect(counterDisplay.text()).toContain(counter - 1);
 });
+
+test(`counter can't go below 0`, () => {});
+
+test('display error message on decrement when 0', () => {});
+
+test('remove error when increment from 0 and increment counter', () => {});
